@@ -1,16 +1,13 @@
 {
-  "name": "react-dev-utils",
-  "version": "11.0.1",
-  "description": "webpack utilities used by Create React App",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/react-dev-utils"
-  },
+  "name": "react-dev-utils-seek",
+  "version": "1.0.1",
+  "description": "webpack5 utilities used by Create React App",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+  "scripts": {
+    "tags": "git tag v1.0.1 && git push origin --tags",
+    "test": "cross-env FORCE_COLOR=true jest"
   },
+  "keywords": ["webpack5 react-dev-utils"],
   "engines": {
     "node": ">=10"
   },
@@ -80,8 +77,5 @@
   "devDependencies": {
     "cross-env": "^7.0.2",
     "jest": "26.6.0"
-  },
-  "scripts": {
-    "test": "cross-env FORCE_COLOR=true jest"
   }
 }
